@@ -50,6 +50,10 @@ jobs:
           cache: pnpm
           cache-dependency-path: apps/desktop/pnpm-lock.yaml
 
+      - name: Install frontend dependencies
+        working-directory: apps/desktop
+        run: pnpm install --frozen-lockfile
+
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
 
