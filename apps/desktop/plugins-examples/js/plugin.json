@@ -1,0 +1,11 @@
+{
+  "id": "example-js",
+  "name": "Example JS Source",
+  "version": "0.2.0",
+  "type": "metadata",
+  "description": "JavaScript 插件示例：用 bilusic.httpGet() + bilusic.log() + JSON.stringify 演示完整的 search/get_track/get_lyrics/home/toplist `op` 分发。可作为写生产 JS 插件的起步模板。",
+  "entry": "plugin.js",
+  "runtime": "js",
+  "capabilities": ["METADATA_SEARCH", "METADATA_GET", "METADATA_LYRICS", "METADATA_HOME"],
+  "requires_auth": false
+}

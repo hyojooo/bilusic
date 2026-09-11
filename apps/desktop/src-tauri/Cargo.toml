@@ -1,0 +1,80 @@
+[package]
+# Binary (and thus the macOS dock label in `tauri dev`) uses this name.
+# `productName` in tauri.conf.json is what the final `.app` bundle is called.
+# Keep these in sync with the brand: "Bilusic" everywhere the user sees it.
+name = "bilusic"
+version = "0.1.0"
+description = "Bilusic — a desktop music player with pluggable audio sources"
+authors = ["Bilusic"]
+edition = "2021"
+rust-version = "1.77.2"
+
+# The library is what the desktop binary and (later) mobile targets share.
+[lib]
+name = "bilusic_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[features]
+# C · JS runtime is on by default so plugin authors can ship `.js` plugins
+# without a special build flag. The rquickjs + QuickJS cost is small
+# (~0.6 MB stripped delta, measured 2026-08-20 on a macOS release build).
+# A · WASM stays opt-in (wasmtime pulls ~5 MB) — enable with
+# `cargo build --features wasm` or `cargo build --features "js wasm"`.
+# Leanest binary: `cargo build --no-default-features`.
+default = ["js"]
+# B · WASM escape hatch (P5-II). Off by default so the binary stays lean;
+# enable with `cargo build --features wasm` (with or without default).
+wasm = ["dep:wasmtime", "wasmtime/async"]
+# C · JS runtime escape hatch (P5-III). Listed in `default` so end users get
+# JS-plugin support with no extra flag. Authors who explicitly want it off
+# (or who want to skip the QuickJS dependency) build with
+# `cargo build --no-default-features`. rquickjs + QuickJS bytecode
+# interpreter is the lightest second-language runtime available.
+js = ["dep:rquickjs", "rquickjs/futures"]
+
+[dependencies]
+tauri = { version = "2.0.4", features = [] }
+# P5-II · Settings → Plugins import: native file/folder picker (dialog:default)
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# P1 — Bilibili audio source engine + local streaming proxy
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls", "cookies"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "sync", "time", "io-util"] }
+axum = "0.7"
+thiserror = "1"
+md5 = "0.7"
+url = "2"
+bitflags = "2"
+async-trait = "0.1"
+
+# P3 — local persistence (playlists, track cache, play history)
+rusqlite = { version = "0.32", features = ["bundled"] }
+
+# NetEase metadata: weapi encryption + endpoints via the ncm-api-rs SDK
+# (Rust port of NeteaseCloudMusicApi Enhanced). Replaces the hand-rolled
+# AES/RSA crypto that previously lived in netease_metadata.rs. Default
+# features are empty (no `server`/axum pulled in).
+ncm-api-rs = "0.1"
+base64 = "0.22"
+
+# B · WASM runtime escape hatch (feature = "wasm"). wasmtime pulls in a large
+# tree, so it is optional and feature-gated — the default build never compiles it.
+wasmtime = { version = "47", optional = true }
+
+# C · JS runtime (feature = "js", enabled by default). rquickjs (QuickJS
+# engine + Rust bindings) provides the second language bridge so authors
+# who don't know Rust can still ship plugins. Since 2026-08-20 it is on
+# in the default build (~0.6 MB stripped cost; measured).
+rquickjs = { version = "0.12", optional = true }
+
+[profile.release]
+panic = "abort"
+strip = true
+opt-level = "s"
+lto = true
+codegen-units = 1

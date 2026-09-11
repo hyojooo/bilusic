@@ -1,0 +1,31 @@
+{
+  "id": "itunes-declarative",
+  "name": "iTunes Search",
+  "version": "0.1.0",
+  "type": "metadata",
+  "description": "声明式插件示例（零代码·零运行时）：包装 iTunes Search 公开 API（免鉴权），开箱即用。仿写任意 REST 音源时，把 base_url / search.path / map 换成目标服务的对应值即可。",
+  "entry": "declarative",
+  "runtime": "declarative",
+  "capabilities": ["METADATA_SEARCH"],
+  "requires_auth": false,
+  "declarative": {
+    "base_url": "https://itunes.apple.com",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "search": {
+      "path": "/search?term=${query}&media=music&limit=20",
+      "method": "GET",
+      "list_path": "$.results",
+      "map": {
+        "source_id": "$.trackId",
+        "title": "$.trackName",
+        "artist": "$.artistName",
+        "album": "$.collectionName",
+        "duration_ms": "$.trackTimeMillis",
+        "cover": "$.artworkUrl100",
+        "lyrics_id": "$.trackId"
+      }
+    }
+  }
+}

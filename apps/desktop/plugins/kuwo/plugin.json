@@ -1,0 +1,16 @@
+{
+  "id": "kuwo",
+  "name": "KuWo",
+  "version": "0.1.0",
+  "type": "metadata",
+  "description": "KuWo Music元数据源（JS 实现）：搜索 / 单曲 / 推荐歌单 / 热门歌手。",
+  "entry": "index.js",
+  "runtime": "js",
+  "capabilities": [
+    "METADATA_SEARCH",
+    "METADATA_GET",
+    "METADATA_LYRICS",
+    "METADATA_HOME"
+  ],
+  "requires_auth": false
+}

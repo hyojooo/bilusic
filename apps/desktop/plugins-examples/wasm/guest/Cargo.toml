@@ -1,0 +1,15 @@
+[package]
+name = "bilusic-guest-itunes"
+version = "0.1.0"
+edition = "2021"
+description = "Bilusic WASM guest example: wraps the public iTunes Search/Lookup API (no auth required)."
+
+[lib]
+crate-type = ["cdylib"]
+name = "plugin"
+# Do NOT add this crate to the host workspace. It is compiled separately with
+# `cargo build --target wasm32-unknown-unknown` and shipped as `plugin.wasm`
+# (matching the `entry` field in ../plugin.json).
+
+[dependencies]
+serde_json = "1"

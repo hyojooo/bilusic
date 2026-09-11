@@ -1,0 +1,602 @@
+[
+  {
+    "id": 336,
+    "name": "周杰伦",
+    "aartist": "Jay Chou",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s56/58/291211030.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s56/58/291211030.jpg",
+    "artistFans": 1664361,
+    "albumNum": 45,
+    "musicNum": 1697
+  },
+  {
+    "id": 909,
+    "name": "莫文蔚",
+    "aartist": "Karen Mok",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s57/57/2536086177.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s57/57/2536086177.jpg",
+    "artistFans": 115166,
+    "albumNum": 83,
+    "musicNum": 763
+  },
+  {
+    "id": 1062,
+    "name": "林俊杰",
+    "aartist": "JJ Lin",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/40/64/2063938955.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/40/64/2063938955.jpg",
+    "artistFans": 818708,
+    "albumNum": 81,
+    "musicNum": 1227
+  },
+  {
+    "id": 47,
+    "name": "陈奕迅",
+    "aartist": "Eason Chan",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/37/26/3816222178.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/37/26/3816222178.jpg",
+    "artistFans": 592556,
+    "albumNum": 152,
+    "musicNum": 1838
+  },
+  {
+    "id": 5371,
+    "name": "G.E.M. 邓紫棋",
+    "aartist": "",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/40/9/1980630626.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/40/9/1980630626.jpg",
+    "artistFans": 957941,
+    "albumNum": 72,
+    "musicNum": 931
+  },
+  {
+    "id": 1250,
+    "name": "BEYOND",
+    "aartist": "",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s5/17/3477575663.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s5/17/3477575663.jpg",
+    "artistFans": 300594,
+    "albumNum": 173,
+    "musicNum": 1502
+  },
+  {
+    "id": 1416,
+    "name": "王力宏",
+    "aartist": "Leehom Wang",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s63/78/3965267796.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s63/78/3965267796.jpg",
+    "artistFans": 204924,
+    "albumNum": 88,
+    "musicNum": 933
+  },
+  {
+    "id": 2,
+    "name": "周传雄",
+    "aartist": "Steve Chou",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s84/13/1119809443.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s84/13/1119809443.jpg",
+    "artistFans": 147165,
+    "albumNum": 45,
+    "musicNum": 637
+  },
+  {
+    "id": 896,
+    "name": "张学友",
+    "aartist": "Jacky Cheung",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s30/24/2781671968.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s30/24/2781671968.png",
+    "artistFans": 433277,
+    "albumNum": 144,
+    "musicNum": 1938
+  },
+  {
+    "id": 286,
+    "name": "刘德华",
+    "aartist": "Andy Lau",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/65/42/2631374422.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/65/42/2631374422.jpg",
+    "artistFans": 375607,
+    "albumNum": 176,
+    "musicNum": 2268
+  },
+  {
+    "id": 1892,
+    "name": "王杰",
+    "aartist": "Dave Wang",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s79/6/3934255369.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s79/6/3934255369.png",
+    "artistFans": 123396,
+    "albumNum": 94,
+    "musicNum": 915
+  },
+  {
+    "id": 973,
+    "name": "任贤齐",
+    "aartist": "Richie Jen",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/55/19/2006209414.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/55/19/2006209414.jpg",
+    "artistFans": 139881,
+    "albumNum": 64,
+    "musicNum": 992
+  },
+  {
+    "id": 1493,
+    "name": "张信哲",
+    "aartist": "Jeff Chang Shin-Che",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s74/42/874158805.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s74/42/874158805.jpg",
+    "artistFans": 178564,
+    "albumNum": 84,
+    "musicNum": 907
+  },
+  {
+    "id": 744,
+    "name": "孙燕姿",
+    "aartist": "Stefanie Sun",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s28/47/3391812016.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s28/47/3391812016.jpg",
+    "artistFans": 117118,
+    "albumNum": 56,
+    "musicNum": 746
+  },
+  {
+    "id": 810,
+    "name": "谭咏麟",
+    "aartist": "Alan Tam",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s44/93/3455715154.png",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s44/93/3455715154.png",
+    "artistFans": 118303,
+    "albumNum": 204,
+    "musicNum": 2233
+  },
+  {
+    "id": 317,
+    "name": "梁静茹",
+    "aartist": "Fish Leong",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/0/30/4181357387.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/0/30/4181357387.jpg",
+    "artistFans": 128915,
+    "albumNum": 39,
+    "musicNum": 667
+  },
+  {
+    "id": 492,
+    "name": "张韶涵",
+    "aartist": "Angela Zhang",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s58/68/3701106526.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s58/68/3701106526.jpg",
+    "artistFans": 354741,
+    "albumNum": 55,
+    "musicNum": 719
+  },
+  {
+    "id": 221102,
+    "name": "赵乃吉",
+    "aartist": "",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/96/70/1767459137.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/96/70/1767459137.jpg",
+    "artistFans": 11158,
+    "albumNum": 336,
+    "musicNum": 1328
+  },
+  {
+    "id": 1359,
+    "name": "陈小春",
+    "aartist": "Jordan Chan",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s50/7/912851190.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s50/7/912851190.jpg",
+    "artistFans": 55784,
+    "albumNum": 58,
+    "musicNum": 650
+  },
+  {
+    "id": 332,
+    "name": "周华健",
+    "aartist": "Emil Chau",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s37/35/355532631.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s37/35/355532631.png",
+    "artistFans": 145063,
+    "albumNum": 78,
+    "musicNum": 1051
+  },
+  {
+    "id": 233,
+    "name": "陈慧娴",
+    "aartist": "Priscilla Chan",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/22/17/201440287.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/22/17/201440287.jpg",
+    "artistFans": 100971,
+    "albumNum": 88,
+    "musicNum": 813
+  },
+  {
+    "id": 1328,
+    "name": "邓丽君",
+    "aartist": "Teresa Teng",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/16/69/2617556901.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/16/69/2617556901.jpg",
+    "artistFans": 457601,
+    "albumNum": 523,
+    "musicNum": 2902
+  },
+  {
+    "id": 223,
+    "name": "杨丞琳",
+    "aartist": "Rainie Yang",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s28/93/3469735896.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s28/93/3469735896.jpg",
+    "artistFans": 35651,
+    "albumNum": 47,
+    "musicNum": 667
+  },
+  {
+    "id": 210,
+    "name": "伍佰 & China Blue",
+    "aartist": "",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/71/3/2082158453.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/71/3/2082158453.jpg",
+    "artistFans": 71107,
+    "albumNum": 44,
+    "musicNum": 639
+  },
+  {
+    "id": 1209,
+    "name": "张宇",
+    "aartist": "Phil Chang",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s93/89/251061154.png",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s93/89/251061154.png",
+    "artistFans": 129806,
+    "albumNum": 25,
+    "musicNum": 308
+  },
+  {
+    "id": 522,
+    "name": "蔡健雅",
+    "aartist": "Tanya Chua",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/97/0/1283488305.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/97/0/1283488305.jpg",
+    "artistFans": 84173,
+    "albumNum": 44,
+    "musicNum": 515
+  },
+  {
+    "id": 624,
+    "name": "S.H.E",
+    "aartist": "",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s47/40/1518389109.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s47/40/1518389109.png",
+    "artistFans": 104680,
+    "albumNum": 33,
+    "musicNum": 650
+  },
+  {
+    "id": 833,
+    "name": "张国荣",
+    "aartist": "Leslie Cheung",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s44/6/2602790997.png",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s44/6/2602790997.png",
+    "artistFans": 162626,
+    "albumNum": 145,
+    "musicNum": 1197
+  },
+  {
+    "id": 194445,
+    "name": "刘珂矣",
+    "aartist": "",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s12/68/921143849.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s12/68/921143849.jpg",
+    "artistFans": 113609,
+    "albumNum": 35,
+    "musicNum": 217
+  },
+  {
+    "id": 978,
+    "name": "蔡依林",
+    "aartist": "Jolin Cai",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s67/8/3629759113.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s67/8/3629759113.jpg",
+    "artistFans": 131734,
+    "albumNum": 73,
+    "musicNum": 1110
+  },
+  {
+    "id": 4831713,
+    "name": "老板",
+    "aartist": "",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s70/86/119174062.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s70/86/119174062.jpg",
+    "artistFans": 885,
+    "albumNum": 305,
+    "musicNum": 898
+  },
+  {
+    "id": 451,
+    "name": "陶喆",
+    "aartist": "David Tao",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s55/31/1316361792.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s55/31/1316361792.jpg",
+    "artistFans": 45783,
+    "albumNum": 33,
+    "musicNum": 502
+  },
+  {
+    "id": 490,
+    "name": "李克勤",
+    "aartist": "Hacken Lee",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s3s19/47/3346755739.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s3s19/47/3346755739.jpg",
+    "artistFans": 89526,
+    "albumNum": 131,
+    "musicNum": 1593
+  },
+  {
+    "id": 1306,
+    "name": "王心凌",
+    "aartist": "Cyndi Wang",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s77/97/1548119791.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s77/97/1548119791.jpg",
+    "artistFans": 93260,
+    "albumNum": 43,
+    "musicNum": 579
+  },
+  {
+    "id": 1431,
+    "name": "刘若英",
+    "aartist": "Ren’e Liu",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s5/79/1902236917.png",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s5/79/1902236917.png",
+    "artistFans": 139003,
+    "albumNum": 48,
+    "musicNum": 586
+  },
+  {
+    "id": 354,
+    "name": "五月天",
+    "aartist": "Mayday",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s1/32/167770198.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s1/32/167770198.jpg",
+    "artistFans": 138129,
+    "albumNum": 75,
+    "musicNum": 1055
+  },
+  {
+    "id": 1014,
+    "name": "林忆莲",
+    "aartist": "Sandy Lam",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s28/70/1001193820.png",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s28/70/1001193820.png",
+    "artistFans": 98967,
+    "albumNum": 122,
+    "musicNum": 1142
+  },
+  {
+    "id": 12635726,
+    "name": "ProdbyMend",
+    "aartist": "",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/20/57/3711657954.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/20/57/3711657954.jpg",
+    "artistFans": 7,
+    "albumNum": 918,
+    "musicNum": 3548
+  },
+  {
+    "id": 5265,
+    "name": "杨宗纬",
+    "aartist": "Aska Yang",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s56/96/3453738367.png",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s56/96/3453738367.png",
+    "artistFans": 110819,
+    "albumNum": 44,
+    "musicNum": 665
+  },
+  {
+    "id": 226,
+    "name": "萧亚轩",
+    "aartist": "Elva Hsiao",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/37/30/674377541.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/37/30/674377541.jpg",
+    "artistFans": 67414,
+    "albumNum": 34,
+    "musicNum": 541
+  },
+  {
+    "id": 4968,
+    "name": "Taylor Swift",
+    "aartist": "泰勒·斯威夫特",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s85/29/2408248969.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s85/29/2408248969.jpg",
+    "artistFans": 364700,
+    "albumNum": 204,
+    "musicNum": 1529
+  },
+  {
+    "id": 922,
+    "name": "阿杜",
+    "aartist": "A do",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/78/15/2244879021.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/78/15/2244879021.jpg",
+    "artistFans": 56984,
+    "albumNum": 29,
+    "musicNum": 302
+  },
+  {
+    "id": 1045,
+    "name": "陈百强",
+    "aartist": "Danny Chan",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/s4s1/5/1960802277.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/s4s1/5/1960802277.jpg",
+    "artistFans": 59881,
+    "albumNum": 68,
+    "musicNum": 523
+  },
+  {
+    "id": 1072,
+    "name": "谢霆锋",
+    "aartist": "Nicholas Tse",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/60/45/3679782984.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/60/45/3679782984.jpg",
+    "artistFans": 42335,
+    "albumNum": 66,
+    "musicNum": 1142
+  },
+  {
+    "id": 948,
+    "name": "李翊君",
+    "aartist": "E-Jun Lee",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s44/50/2124727904.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s44/50/2124727904.png",
+    "artistFans": 43540,
+    "albumNum": 71,
+    "musicNum": 681
+  },
+  {
+    "id": 1094,
+    "name": "李宗盛",
+    "aartist": "Jonathan Lee",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s97/63/3770055801.png",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s97/63/3770055801.png",
+    "artistFans": 141332,
+    "albumNum": 20,
+    "musicNum": 381
+  },
+  {
+    "id": 6989323,
+    "name": "Grimmmz",
+    "aartist": "",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/19/26/2714914296.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/19/26/2714914296.jpg",
+    "artistFans": 23,
+    "albumNum": 9436,
+    "musicNum": 9990
+  },
+  {
+    "id": 125824,
+    "name": "金润吉",
+    "aartist": "A RUN",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/97/95/3186465824.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/97/95/3186465824.jpg",
+    "artistFans": 18145,
+    "albumNum": 122,
+    "musicNum": 487
+  },
+  {
+    "id": 1367,
+    "name": "杨千嬅",
+    "aartist": "Miriam Yeung",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s27/71/2446925024.png",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s27/71/2446925024.png",
+    "artistFans": 43877,
+    "albumNum": 114,
+    "musicNum": 1136
+  },
+  {
+    "id": 1889,
+    "name": "韩宝仪",
+    "aartist": "HanBaoyi",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/57/0/1536451762.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/57/0/1536451762.jpg",
+    "artistFans": 142078,
+    "albumNum": 248,
+    "musicNum": 1654
+  },
+  {
+    "id": 36,
+    "name": "叶蒨文",
+    "aartist": "Sally Yeh",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s3/54/2875723013.png",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s3/54/2875723013.png",
+    "artistFans": 68975,
+    "albumNum": 68,
+    "musicNum": 904
+  },
+  {
+    "id": 1001,
+    "name": "张惠妹",
+    "aartist": "A-Mei",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/19/60/3384158984.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/19/60/3384158984.jpg",
+    "artistFans": 93602,
+    "albumNum": 61,
+    "musicNum": 1135
+  },
+  {
+    "id": 314,
+    "name": "潘玮柏",
+    "aartist": "Wilber Pan",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s57/75/3416007315.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s57/75/3416007315.jpg",
+    "artistFans": 40609,
+    "albumNum": 38,
+    "musicNum": 551
+  },
+  {
+    "id": 678,
+    "name": "草蜢",
+    "aartist": "草蜢乐队",
+    "pic": "https://img3.kuwo.cn/star/starheads/300/s4s49/70/3470179109.jpg",
+    "pic300": "https://img3.kuwo.cn/star/starheads/300/s4s49/70/3470179109.jpg",
+    "artistFans": 20534,
+    "albumNum": 77,
+    "musicNum": 870
+  },
+  {
+    "id": 983,
+    "name": "方大同",
+    "aartist": "Khalil Fong",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s24/98/3925627773.png",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s24/98/3925627773.png",
+    "artistFans": 19955,
+    "albumNum": 55,
+    "musicNum": 549
+  },
+  {
+    "id": 226572,
+    "name": "Alan Walker",
+    "aartist": "艾伦·沃克",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/14/7/272889291.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/14/7/272889291.jpg",
+    "artistFans": 641631,
+    "albumNum": 199,
+    "musicNum": 745
+  },
+  {
+    "id": 69677,
+    "name": "唐伯虎Annie",
+    "aartist": "",
+    "pic": "https://img2.kuwo.cn/star/starheads/300/7/78/603484591.jpg",
+    "pic300": "https://img2.kuwo.cn/star/starheads/300/7/78/603484591.jpg",
+    "artistFans": 23512,
+    "albumNum": 121,
+    "musicNum": 523
+  },
+  {
+    "id": 788,
+    "name": "郭静",
+    "aartist": "Claire",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/s4s3/67/1698836953.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/s4s3/67/1698836953.jpg",
+    "artistFans": 24156,
+    "albumNum": 63,
+    "musicNum": 339
+  },
+  {
+    "id": 871,
+    "name": "陈慧琳",
+    "aartist": "Kelly Chen",
+    "pic": "https://img4.kuwo.cn/star/starheads/300/s4s53/57/1903031562.jpg",
+    "pic300": "https://img4.kuwo.cn/star/starheads/300/s4s53/57/1903031562.jpg",
+    "artistFans": 38908,
+    "albumNum": 113,
+    "musicNum": 1287
+  },
+  {
+    "id": 68432,
+    "name": "F.I.R.飞儿乐团",
+    "aartist": "F.I.R.",
+    "pic": "https://img1.kuwo.cn/star/starheads/300/92/72/2599301580.jpg",
+    "pic300": "https://img1.kuwo.cn/star/starheads/300/92/72/2599301580.jpg",
+    "artistFans": 23480,
+    "albumNum": 33,
+    "musicNum": 387
+  }
+]

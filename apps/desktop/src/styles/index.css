@@ -1,0 +1,106 @@
+@import "@fontsource/pacifico/400.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Equalizer "now playing" bars (referenced by arbitrary animate-[eq-bar_*]). */
+@keyframes eq-bar {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+/*
+ * Theme tokens. RGB triplets (space separated) so Tailwind's
+ * `rgb(var(--x) / <alpha-value>)` can apply opacity.
+ * Accent defaults to slate; src/lib/theme.ts rewrites accent-50..900 at runtime.
+ */
+:root,
+[data-theme="light"] {
+  --c-bg: 248 250 252;
+  --c-surface: 255 255 255;
+  --c-surface-2: 241 245 249;
+  --c-surface-3: 226 232 240;
+  --c-border: 226 232 240;
+  --c-fg: 15 23 42;
+  --c-muted: 100 116 139;
+
+  --c-accent-50: 248 250 252;
+  --c-accent-100: 241 245 249;
+  --c-accent-200: 226 232 240;
+  --c-accent-300: 203 213 225;
+  --c-accent-400: 148 163 184;
+  --c-accent-500: 100 116 139;
+  --c-accent-600: 71 85 105;
+  --c-accent-700: 51 65 85;
+  --c-accent-800: 30 41 59;
+  --c-accent-900: 15 23 42;
+}
+
+[data-theme="dark"] {
+  --c-bg: 9 9 11;
+  --c-surface: 18 18 22;
+  --c-surface-2: 28 28 34;
+  --c-surface-3: 38 38 46;
+  --c-border: 39 39 46;
+  --c-fg: 237 237 240;
+  --c-muted: 148 148 156;
+}
+
+@layer base {
+  * {
+    border-color: rgb(var(--c-border));
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-bg text-fg font-sans antialiased;
+    margin: 0;
+    overflow: hidden; /* the app manages its own scroll regions */
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-line rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--c-muted) / 0.5);
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-surface border border-line rounded-2xl shadow-soft;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2 text-muted
+      transition-colors hover:bg-surface-2 hover:text-fg;
+  }
+  .nav-item-active {
+    @apply bg-surface-2 text-fg;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2
+      text-sm font-medium transition-colors disabled:opacity-50;
+  }
+  .btn-accent {
+    @apply btn bg-accent-500 text-white hover:bg-accent-600;
+  }
+  .btn-ghost {
+    @apply btn text-muted hover:bg-surface-2 hover:text-fg;
+  }
+  .field {
+    @apply w-full rounded-xl bg-surface-2 border border-line px-3 py-2
+      text-sm outline-none focus:border-accent-500 transition-colors;
+  }
+}

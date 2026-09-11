@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+**/dist/
+.cache/
+**/target/
+**/gen/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.workbuddy/
+
+# Temporary Build Files (Vite Timestamps)
+_tmp_*/
+*.timestamp-*
+tmp/
+*.temp/
+

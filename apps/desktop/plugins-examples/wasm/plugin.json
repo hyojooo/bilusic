@@ -1,0 +1,11 @@
+{
+  "id": "example-wasm",
+  "name": "Example WASM Source",
+  "version": "0.1.0",
+  "type": "engine",
+  "description": "WASM 逃生口示例（Feature = wasm）。把 entry 换成你用任意语言编译出的 .wasm（实现 bilusic guest 契约），无需改宿主一行代码即可接入复杂音源。宿主经 host functions 提供 HTTP/日志能力。",
+  "entry": "plugin.wasm",
+  "runtime": "wasm",
+  "capabilities": ["AUDIO_BY_ID"],
+  "requires_auth": false
+}

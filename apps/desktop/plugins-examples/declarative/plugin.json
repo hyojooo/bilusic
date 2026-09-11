@@ -1,0 +1,48 @@
+{
+  "id": "example-meta",
+  "name": "Example Declarative Source",
+  "version": "0.1.0",
+  "type": "metadata",
+  "description": "声明式配置插件示例（零代码·零运行时）。把 base_url 换成真实 REST 音源、按它的返回结构改 map 即可，无需写 Rust/JS。",
+  "entry": "declarative",
+  "runtime": "declarative",
+  "capabilities": ["METADATA_SEARCH", "METADATA_GET", "METADATA_LYRICS"],
+  "requires_auth": false,
+  "declarative": {
+    "base_url": "https://example.com/api",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "search": {
+      "path": "/search?q=${query}&page=${page}",
+      "method": "GET",
+      "list_path": "$.results",
+      "map": {
+        "source_id": "$.id",
+        "title": "$.title",
+        "artist": "$.artist.name",
+        "album": "$.album.title",
+        "duration_ms": "$.duration",
+        "cover": "$.cover",
+        "lyrics_id": "$.id"
+      }
+    },
+    "get_track": {
+      "path": "/track/${id}",
+      "map": {
+        "source_id": "$.id",
+        "title": "$.title",
+        "artist": "$.artist.name",
+        "album": "$.album.title",
+        "duration_ms": "$.duration",
+        "cover": "$.cover"
+      }
+    },
+    "lyrics": {
+      "path": "/track/${id}/lyrics",
+      "map": {
+        "lyrics_text": "$.lrc"
+      }
+    }
+  }
+}
