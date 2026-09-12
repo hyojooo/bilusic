@@ -1,8 +1,34 @@
-# Bilusic
+<p align="center">
+  <img src="./docs/assets/icon-128.png" width="120" alt="Bilusic logo">
+</p>
 
-**English** | [中文文档](./README.zh-CN.md)
+<h1 align="center">Bilusic</h1>
 
-> A lightweight, open-source desktop music player. Plug in your own audio sources, stream across services, and enjoy a clean, cross-platform experience.
+<p align="center">
+  A lightweight, open-source desktop music player.<br>
+  Plug in your own audio sources, stream across services, and enjoy a clean, cross-platform experience.
+</p>
+
+<p align="center">
+  <a href="https://github.com/hyojooo/bilusic/releases/latest">
+    <img src="https://img.shields.io/github/v/release/hyojooo/bilusic" alt="release">
+  </a>
+  <a href="https://github.com/hyojooo/bilusic/releases">
+    <img src="https://img.shields.io/github/downloads/hyojooo/bilusic/total" alt="downloads">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/hyojooo/bilusic" alt="license">
+  </a>
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey" alt="platform">
+</p>
+
+<p align="center">
+  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <img src="./docs/assets/screenshot-light.jpg" width="720" alt="Bilusic screenshot">
+</p>
 
 ## ✨ Features
 
@@ -49,7 +75,7 @@ Tauri 2 (Rust) + React 18 + TypeScript + Vite + Tailwind CSS + Zustand · Packag
 ```
 bilusic/
 ├── apps/desktop/            # Main Tauri project (frontend + Rust backend)
-└── docs/                    # Plans and design docs
+└── docs/                    # Plans, design docs, and screenshots
 ```
 
 ## 📄 License
@@ -59,7 +85,3 @@ Licensed under the [MIT License](./LICENSE).
 ## ⚠️ Disclaimer
 
 This project is for **personal study and research only**. Please comply with the terms of service of the music services you connect to. Do not use this software for any commercial purpose or any act that infringes third-party rights. The project does not bundle or host any copyrighted content; all audio streams come from audio sources configured by the user.
-
----
-
-For the Chinese version, see [README.zh-CN.md](./README.zh-CN.md).
