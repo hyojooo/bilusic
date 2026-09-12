@@ -78,6 +78,13 @@
     /* Screenshot */
     .shot { text-align: center; }
     .shot img { width: 100%; max-width: 860px; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.08); }
+    .shots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 10px; }
+    .shot-item { display: flex; flex-direction: column; gap: 10px; }
+    .shot-label { font-size: 13px; color: var(--muted); font-weight: 500; }
+
+    @media (max-width: 760px) {
+      .shots { grid-template-columns: 1fr; }
+    }
 
     /* Download */
     .dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; }
@@ -169,8 +176,17 @@
   <section id="screenshot" class="shot" style="background: var(--bg-soft);">
     <div class="wrap">
       <h2 class="section-title">🖼 Preview</h2>
-      <p class="section-sub">A clean, focused listening experience.</p>
-      <img src="assets/screenshot-light.jpg" alt="Bilusic screenshot" />
+      <p class="section-sub">A clean, focused listening experience — in both light and dark themes.</p>
+      <div class="shots">
+        <div class="shot-item">
+          <img src="assets/screenshot-light.jpg" alt="Bilusic light theme" />
+          <span class="shot-label">☀ Light Theme</span>
+        </div>
+        <div class="shot-item">
+          <img src="assets/screenshot-dark.jpg" alt="Bilusic dark theme" />
+          <span class="shot-label">🌙 Dark Theme</span>
+        </div>
+      </div>
     </div>
   </section>
 
