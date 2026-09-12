@@ -69,5 +69,12 @@ jobs:
         with:
           projectPath: apps/desktop
           args: ${{ matrix.args }}
-          # push main 仅构建；push v* tag 构建 + 创建 Release 并上传产物
-          release: ${{ startsWith(github.ref, 'refs/tags/v') }}
+          # push main 时这些参数留空 → 仅构建、不创建 Release（tagName/releaseName 为空则 action 只构建）
+          # push v* tag 时传入 tag 名与 release 名 → 创建 GitHub Release 并上传产物
+          tagName: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || '' }}
+          releaseName: ${{ startsWith(github.ref, 'refs/tags/v') && format('Bilusic {0}', github.ref_name) || '' }}
+          releaseBody: ${{ startsWith(github.ref, 'refs/tags/v') && 'See the assets to download and install.' || '' }}
+          releaseDraft: false
+          prerelease: false
+          includeDebug: false
+
