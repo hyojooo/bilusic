@@ -69,11 +69,32 @@ jobs:
         with:
           projectPath: apps/desktop
           args: ${{ matrix.args }}
-          # push main 时这些参数留空 → 仅构建、不创建 Release（tagName/releaseName 为空则 action 只构建）
-          # push v* tag 时传入 tag 名与 release 名 → 创建 GitHub Release 并上传产物
+          # push main 时 tagName/releaseName 为空 → 仅构建、不创建 Release
+          # push v* tag 时传入 tag 名 → 创建 GitHub Release 并上传产物
           tagName: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || '' }}
           releaseName: ${{ startsWith(github.ref, 'refs/tags/v') && format('Bilusic {0}', github.ref_name) || '' }}
-          releaseBody: ${{ startsWith(github.ref, 'refs/tags/v') && 'See the assets to download and install.' || '' }}
+          releaseBody: |
+            A lightweight, open-source desktop music player with pluggable audio sources.
+
+            ## What's New
+            See the full changelog in the repository commit history.
+
+            ## Download & Install
+            Pick the asset for your platform below:
+            - **macOS**: `.dmg`
+            - **Windows**: `.msi` / `.exe`
+            - **Linux**: `.AppImage` / `.deb` / `.rpm`
+
+            ## 下载与安装
+            根据你的平台选择下方资源：
+            - **macOS**：`.dmg`
+            - **Windows**：`.msi` / `.exe`
+            - **Linux**：`.AppImage` / `.deb` / `.rpm`
+
+            ## Disclaimer / 免责声明
+            This project is for personal study and research only. Please comply with the terms of service of the music services you connect to. The project does not bundle or host any copyrighted content.
+
+            本项目仅供个人学习与研究使用。请遵守你所接入的各音乐服务的服务条款。项目不内置、不托管任何受版权保护的内容。
           releaseDraft: false
           prerelease: false
           includeDebug: false
